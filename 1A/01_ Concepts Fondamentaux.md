@@ -4,7 +4,7 @@
 
 Naviguer sur le **web** évoque souvent l'image d'un **surfeur** se déplaçant d'une vague à l'autre. Chaque **clic** nous amène vers une nouvelle **page** ou découverte.
 
-Une autre analogie courante est celle d'une **toile d'araignée**, reflétant bien le terme anglais « **web** » qui signifie **toile**. Cette image représente parfaitement le réseau complexe de **pages** et de **liens** qui constituent le **web**.
+Une autre analogie courante est celle d'une **toile d'araignée**, reflétant bien le terme anglais « **web** » qui signifie **toile**. Cette image représente parfaitement le réseau complexe de **pages** et de **liens** qui constituent le **web**. 🕷
 
 Un petit peu d'histoire ? 🙂
 
@@ -31,7 +31,7 @@ Il est courant de confondre le Web avec les autres services, bien que ceux-ci te
 
 Ainsi, le Web agit comme point d'accès principal pour de nombreux services actuels.
 
-### Cloud
+### Cloud ⛅
 
 Le **Cloud** est une métaphore pour désigner le stockage et l'accès à des données et services via internet, plutôt que sur votre ordinateur local. Imaginez-le comme un nuage capable de stocker de l'information et de la rendre accessible de n'importe où, à condition d'avoir une connexion internet. Cela permet une grande flexibilité, comme l'expansion de l'espace de stockage selon vos besoins, rappelant la nature changeante d'un nuage.
 
