@@ -1,17 +1,5 @@
 #BTS #1A #SISR
 
-- [[#Internet, Web, Cloud ?|Internet, Web, Cloud ?]]
-	- [[#Internet, Web, Cloud ?#Cloud|Cloud]]
-- [[#Les serveurs|Les serveurs]]
-	- [[#Les serveurs#Comment communiquent-ils ?|Comment communiquent-ils ?]]
-- [[#IP et DNS|IP et DNS]]
-	- [[#IP et DNS#Adresse IP|Adresse IP]]
-	- [[#IP et DNS#DNS|DNS]]
-- [[#Les Protocoles|Les Protocoles]]
-	- [[#Les Protocoles#Protocoles Bas Niveau|Protocoles Bas Niveau]]
-	- [[#Les Protocoles#Protocoles Haut Niveau|Protocoles Haut Niveau]]
-- [[#Ports ? 🐷|Ports ? 🐷]]
-
 # Introduction
 
 Naviguer sur le **web** évoque souvent l'image d'un **surfeur** se déplaçant d'une vague à l'autre. Chaque **clic** nous amène vers une nouvelle **page** ou découverte.
@@ -27,8 +15,8 @@ Un petit peu d'histoire ? 🙂
 - 1991 : lancement du **Web** public, pour afficher des pages d’information, créé par Tim Berners-Lee. C’est à ce moment que la notion de « pages web » et de « liens hypertextes » (permettant de naviguer entre chaque page) apparaît. C’est la naissance de la toile !
 
 - 1994 : création du [W3C](https://www.w3.org/) (World Wide Web Consortium), organisme qui a pris le relais de Tim Berners-Lee pour faire évoluer les technologies du web (HTML, CSS, PNG, XML et autres noms barbares).
-
-![[Pasted image 20241004175303.png]]
+![](img1.png)
+![[img1.png]]
 
 ## Internet, Web, Cloud ?
 
