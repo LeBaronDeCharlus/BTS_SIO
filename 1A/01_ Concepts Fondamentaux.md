@@ -15,9 +15,7 @@ Un petit peu d'histoire ? 🙂
 - 1991 : lancement du **Web** public, pour afficher des pages d’information, créé par Tim Berners-Lee. C’est à ce moment que la notion de « pages web » et de « liens hypertextes » (permettant de naviguer entre chaque page) apparaît. C’est la naissance de la toile !
 
 - 1994 : création du [W3C](https://www.w3.org/) (World Wide Web Consortium), organisme qui a pris le relais de Tim Berners-Lee pour faire évoluer les technologies du web (HTML, CSS, PNG, XML et autres noms barbares).
-![](img1.png)
-![[img1.png]]
-
+![](./static/img/img1.png)
 ## Internet, Web, Cloud ?
 
 On confond souvent Internet et le Web. Or, **Internet a été inventé avant le Web.** On peut voir le Web comme un service _à l’intérieur_ d’Internet.
@@ -53,7 +51,7 @@ Dans cette nouvelle partie, nous allons nous intéresser plus précisément au *
 
 Pour commencer, je vous rappelle que l’on se représente souvent une toile d’araignée pour désigner le **Web**. En effet, les ordinateurs communiquent entre eux via des nœuds :
 
-![[Pasted image 20241004175826.png]]
+![](./static/img/img2.png)
 ### Comment communiquent-ils ?
 
 Il est essentiel que les **serveurs** et les **clients** puissent échanger des données. Cette communication s'effectue via des **câbles réseau** connectés à l'arrière des serveurs, qui sont à leur tour reliés à un **câble de fibre optique**. Cette connexion permet une transmission de données à très haute vitesse. La **fibre optique** est souvent installée sous terre, mais elle traverse également les océans, enfouie au fond de la mer. En réalité, une grande partie du **trafic Internet** mondial circule à travers ces **câbles sous-marins**.
@@ -81,12 +79,14 @@ DNS signifie 'Domaine Name System' en anglais, en français on peut dire systè
 On a donc créé des noms d’hôte, comme "google.com", pour pouvoir se souvenir plus facilement du nom du service que l’on veut contacter.
 
 Et l’on a ensuite créé un service d’annuaire, les **DNS**, pour faire le lien entre le nom d’hôte et l’**adresse IP** :
-![[Pasted image 20241004180423.png]]
+![](./static/img/img3.png)
+
 Le **DNS** sert à convertir les noms d’hôte en adresses IP. Il agit comme un immense annuaire qui répertorie tous les noms d’hôtes (comme **google.com**, **youtube.com**) et leur adresse IP correspondante.
 
 Heureusement, tout cela fonctionne automatiquement, sans que nous ayons à y penser. Lorsqu'on entre "google.com" dans notre navigateur, le site web apparaît sans effort de notre part !
 
-![[Pasted image 20241004180603.png]]
+![](./static/img/img4.png)
+
 
 ## Les Protocoles
 
