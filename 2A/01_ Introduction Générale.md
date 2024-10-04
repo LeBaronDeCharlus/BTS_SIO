@@ -6,7 +6,7 @@ Bienvenue, vous êtes maintenant dans votre deuxième année de BTS SIO et nous
 
 Nous allons ici établir quelques rappels des bases d'internet.
 
-Je vous invite également à lire attentivement [ce cours](https://github.com/LeBaronDeCharlus/BTS_SIO_SISR/blob/main/1A/01_%20Concepts%20Fondamentaux.md)et être sûr d'avoir bien assimilé son contenu.
+Je vous invite également à lire attentivement [ce cours](https://github.com/LeBaronDeCharlus/BTS_SIO_SISR/blob/main/1A/01_%20Concepts%20Fondamentaux.md) et être sûr d'avoir bien assimilé son contenu.
 
 Dans un premier temps, nous allons revoir les notions générales qui vous permettront d'aller plus loin dans votre apprentissage.
 
