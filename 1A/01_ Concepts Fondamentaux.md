@@ -1,6 +1,6 @@
 #BTS #1A #SISR
 
-# Introduction
+## Introduction
 
 Naviguer sur le **web** évoque souvent l'image d'un **surfeur** se déplaçant d'une vague à l'autre. Chaque **clic** nous amène vers une nouvelle **page** ou découverte.
 

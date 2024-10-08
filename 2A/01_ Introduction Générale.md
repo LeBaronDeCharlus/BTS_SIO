@@ -1,6 +1,6 @@
 #BTS #SIO #2A
 
-# Introduction
+## Introduction
 
 Bienvenue, vous êtes maintenant dans votre deuxième année de BTS SIO et nous allons ensemble entamer la continuité de l'option SISR (Système & Réseaux).
 
@@ -14,7 +14,7 @@ Attention, veuillez à bien prendre vos notes durant nos échanges, tout n'est p
 
 C'est parti ? 🚀
 
-# Internet 🕸
+## Internet 🕸
 
 Qu'est-ce qu'internet ? C'est un réseau mondial d'ordinateurs interconnectés. Il permet de communiquer, de partager des informations et d'accéder à des services en ligne. Il repose sur un protocole de communication appelé **TCP/IP**.
 
