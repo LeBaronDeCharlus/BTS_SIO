@@ -14,6 +14,7 @@ Attention, veuillez à bien prendre vos notes durant nos échanges, tout n'est p
 
 C'est parti ? 🚀
 
+---
 ## Internet 🕸
 
 Qu'est-ce qu'internet ? C'est un réseau mondial d'ordinateurs interconnectés. Il permet de communiquer, de partager des informations et d'accéder à des services en ligne. Il repose sur un protocole de communication appelé **TCP/IP**.
@@ -22,6 +23,7 @@ Internet a été créé en 1969 par l'armée américaine, il s'appelait alors AR
 
 Internet fonctionne grâce à un protocole de communication appelé TCP/IP. Ce protocole permet de découper les données en paquets, de les envoyer sur le réseau et de les réassembler à l'arrivée.
 
+---
 ## Les services
 
 Internet propose de nombreux services, dont les plus connus sont :
@@ -33,6 +35,7 @@ Internet propose de nombreux services, dont les plus connus sont :
 - le cloud, qui permet de stocker des données en ligne.
 - etc.
 
+---
 ## Les protocoles
 
 Internet repose sur de nombreux protocoles de communication. Chaque protocole dispose d'un port d'écoute. Les plus connus sont :
@@ -59,6 +62,7 @@ Internet repose sur de nombreux protocoles de communication. Chaque protocole di
 
 - etc
 
+---
 ## Les adresses IP
 
 Chaque ordinateur connecté à internet dispose d'une adresse IP, qui permet de l'identifier de manière unique sur le réseau. 
@@ -78,6 +82,7 @@ Voici la liste des plages d'adresses privées :
 
 Les ipv6 privées sont celles qui commencent par fd00::/8.
 
+---
 ## TCP et UDP
 
 TCP et UDP sont deux protocoles de communication utilisés sur internet.
@@ -86,6 +91,7 @@ TCP et UDP sont deux protocoles de communication utilisés sur internet.
 
 **UDP (User Datagram Protocol)** est un protocole non fiable qui ne garantit pas la livraison des données. Il est utilisé pour les protocoles qui nécessitent une communication rapide, comme le streaming, le chat, etc.
 
+---
 ## SYN et ACK
 
 **SYN** et **ACK** sont deux drapeaux utilisés dans le protocole TCP.
@@ -96,6 +102,7 @@ TCP et UDP sont deux protocoles de communication utilisés sur internet.
 
 ![](./static/img/img2.png)
 
+---
 ## Les noms de domaine
 
 Les noms de domaine permettent de traduire les adresses IP en noms de domaine et vice versa. Ils sont gérés par des serveurs **DNS**.
@@ -115,6 +122,7 @@ Il existe plusieurs types de domaines de premier niveau, dont les plus connus so
 - .jp : Japon
 - etc.
 
+---
 ## Les enregistrements DNS
 
 Les serveurs DNS contiennent des enregistrements DNS, qui permettent de traduire les noms de domaine en adresses IP et vice versa.
@@ -129,6 +137,7 @@ Les principaux enregistrements DNS sont :
 - l'enregistrement **SRV**, qui permet de spécifier des services disponibles sur un domaine.
 - etc.
 
+---
 ## Virtualisation
 
 La virtualisation est une technologie qui permet de créer des machines virtuelles sur un serveur physique. Chaque machine virtuelle dispose de son propre système d'exploitation et de ses propres ressources.
@@ -143,6 +152,7 @@ Il existe plusieurs types de virtualisation, dont les plus connus sont :
 - la virtualisation de réseau, qui permet de regrouper les ressources réseau.
 - etc.
 
+---
 ## Hypervision et Docker
 
 L'hyperviseur est un logiciel qui permet de créer des machines virtuelles sur un serveur physique. Il existe deux types d'hyperviseurs : 

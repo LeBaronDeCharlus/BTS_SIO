@@ -16,6 +16,8 @@ Un petit peu d'histoire ? 🙂
 
 - 1994 : création du [W3C](https://www.w3.org/) (World Wide Web Consortium), organisme qui a pris le relais de Tim Berners-Lee pour faire évoluer les technologies du web (HTML, CSS, PNG, XML et autres noms barbares).
 ![](./static/img/img1.png)
+
+---
 ## Internet, Web, Cloud ?
 
 On confond souvent Internet et le Web. Or, **Internet a été inventé avant le Web.** On peut voir le Web comme un service _à l’intérieur_ d’Internet.
@@ -31,6 +33,7 @@ Il est courant de confondre le Web avec les autres services, bien que ceux-ci te
 
 Ainsi, le Web agit comme point d'accès principal pour de nombreux services actuels.
 
+---
 ### Cloud ⛅
 
 Le **Cloud** est une métaphore pour désigner le stockage et l'accès à des données et services via internet, plutôt que sur votre ordinateur local. Imaginez-le comme un nuage capable de stocker de l'information et de la rendre accessible de n'importe où, à condition d'avoir une connexion internet. Cela permet une grande flexibilité, comme l'expansion de l'espace de stockage selon vos besoins, rappelant la nature changeante d'un nuage.
@@ -45,6 +48,7 @@ Ces services, sont regroupés sous le terme de **Cloud**.
 
 Il existe différents types de cloud, mais le plus commun pour le grand public est le **SaaS** (*Software as a Service*), qui désigne l'utilisation de logiciels via une interface web.
 
+---
 ## Les serveurs
 
 Dans cette nouvelle partie, nous allons nous intéresser plus précisément au **réseau** lui-même. Le réseau est ce qui permet aux ordinateurs de communiquer entre eux !
@@ -60,6 +64,7 @@ Lorsque vous accédez à un **site web** hébergé aux **États-Unis** depuis la
 
 Cependant, pour des raisons de performance, il est préférable que les **serveurs** soient situés au plus près des **utilisateurs**. Ainsi, même si vous pouvez accéder à des données situées aux États-Unis depuis la France, le temps de réponse sera légèrement plus long, de l'ordre de quelques **millisecondes**. Pour une expérience utilisateur optimale, la proximité des serveurs est donc essentielle, car même un léger délai est considéré comme inacceptable pour certains utilisateurs impatients.
 
+---
 ## IP et DNS
 
 Comment peut-on localiser un ordinateur n'importe où sur la planète ? C'est une question intéressante, n'est-ce pas ? 🤔
@@ -87,7 +92,7 @@ Heureusement, tout cela fonctionne automatiquement, sans que nous ayons à y pen
 
 ![](./static/img/img4.png)
 
-
+---
 ## Les Protocoles
 
 Dans le monde des **réseaux informatiques**, les machines communiquent entre elles grâce à des règles et des conventions spécifiques, connues sous le nom de **protocoles**. Ces protocoles sont essentiels pour l'échange d'informations sur Internet et peuvent être classés en deux catégories principales : les protocoles de **bas niveau** et les **protocoles de haut niveau**.
@@ -112,6 +117,7 @@ Les protocoles de haut niveau sont construits sur les protocoles de bas niveau c
 
 - **SMTP (Simple Mail Transfer Protocol)** : SMTP est le protocole standard pour l'envoi d'e-mails.
 
+---
 ## Ports ? 🐷
 
 il est essentiel de connaître les services web courants et les ports associés. Voici une liste non exhaustive pour vous aider à démarrer :
