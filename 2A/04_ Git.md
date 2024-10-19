@@ -1,5 +1,10 @@
 #BTS #2A 
 
+- [Qu'est-ce que c'est ?](#quest-ce-que-cest-)
+  - [Comment ça marche ?](#comment-ça-marche-)
+- [Pourquoi Git est-il important ?](#pourquoi-git-est-il-important-)
+
+
 ## Qu'est-ce que c'est ?
 
 Git est un système de contrôle de version décentralisé très populaire parmi les développeurs de logiciels. Il permet à plusieurs personnes de travailler ensemble sur le même projet sans se gêner mutuellement. Voici quelques points clés pour comprendre ce qu'est Git :

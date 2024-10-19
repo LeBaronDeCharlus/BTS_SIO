@@ -1,5 +1,12 @@
 #BTS #SIO #2A 
 
+- [Linux 🐧](#linux-)
+- [GNU 🐃](#gnu-)
+- [Kernel 🌰](#kernel-)
+- [Shell 🐚](#shell-)
+- [Commandes 🛠](#commandes-)
+- [Permissions 🔒](#permissions-)
+
 Dans cette partie nous allons aborder les bases de Linux, un système d'exploitation libre et gratuit.
 
 ## Linux 🐧

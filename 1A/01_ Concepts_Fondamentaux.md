@@ -1,5 +1,18 @@
 #BTS #1A #SISR
 
+- [Introduction](#introduction)
+- [Internet, Web, Cloud ?](#internet-web-cloud-)
+  - [Cloud ⛅](#cloud-)
+- [Les serveurs](#les-serveurs)
+  - [Comment communiquent-ils ?](#comment-communiquent-ils-)
+- [IP et DNS](#ip-et-dns)
+  - [Adresse IP](#adresse-ip)
+  - [DNS](#dns)
+- [Les Protocoles](#les-protocoles)
+  - [Protocoles Bas Niveau](#protocoles-bas-niveau)
+  - [Protocoles Haut Niveau](#protocoles-haut-niveau)
+- [Ports ? 🐷](#ports--)
+
 ## Introduction
 
 Naviguer sur le **web** évoque souvent l'image d'un **surfeur** se déplaçant d'une vague à l'autre. Chaque **clic** nous amène vers une nouvelle **page** ou découverte.

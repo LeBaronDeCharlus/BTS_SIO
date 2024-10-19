@@ -1,5 +1,19 @@
 #BTS #2A 
 
+- [Représentez la hiérarchie de l’entreprise](#représentez-la-hiérarchie-de-lentreprise)
+- [Représentez les utilisateurs](#représentez-les-utilisateurs)
+- [Représentez les postes de travail](#représentez-les-postes-de-travail)
+- [Représentez les autres équipements](#représentez-les-autres-équipements)
+- [Identifiez les données](#identifiez-les-données)
+- [Mise en pratique](#mise-en-pratique)
+- [Distinguez les rôles des contrôleurs de domain](#distinguez-les-rôles-des-contrôleurs-de-domain)
+- [Les différents objets de l’annuaire](#les-différents-objets-de-lannuaire)
+- [Les différents types d’installations](#les-différents-types-dinstallations)
+- [Les stratégies de groupes](#les-stratégies-de-groupes)
+- [Application des stratégies de groupes](#application-des-stratégies-de-groupes)
+- [Paramètres des stratégies de groupes](#paramètres-des-stratégies-de-groupes)
+
+
 *Ce cours grandement inspiré de l'[excellent](https://openclassrooms.com/fr/courses/2222496-centralisez-et-securisez-votre-annuaire-active-directory) dispensé par OpenClassroom.*
 
 Dans ce chapitre, vous allez apprendre à concevoir les données qui seront au cœur du service **Active Directory** (« l’annuaire » d’entreprise de Microsoft). C'est la phase la plus importante, qui va vous permettre de dimensionner les composantes techniques de l’annuaire permettant de **représenter une entreprise** au sein d’un système d’information.
@@ -243,3 +257,4 @@ Pour terminer et illustrer cela, je vous propose de reprendre l’exemple d’un
 Pour éviter tout conflit avec les ordinateurs n’ayant pas besoin de l’imprimante, vous pourrez mettre en œuvre **un filtre sur ce groupe uniquement**.
 
 Cette GPO s’occupera d’installer l’imprimante sur les ordinateurs !
+
