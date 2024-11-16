@@ -715,5 +715,211 @@ Comme vous l'avez mentionné, la commande `rm`, surtout avec les options `-r` et
 - Évitez d'exécuter la commande `rm` en tant qu'utilisateur root à moins que cela ne soit absolument nécessaire, car cela augmente les risques de dommages au système en cas d'erreur.
 
 En suivant ces conseils, vous pouvez minimiser les risques liés à l'utilisation de la commande `rm`. Gardez toujours à l'esprit qu'une fois qu'un fichier est supprimé avec cette commande, il est généralement impossible de le récupérer sans recourir à des outils spécialisés et même ainsi, il n'y a aucune garantie.
+
+#### |
+
+##### Description
+
+Le caractère `|` (pipe) est utilisé pour rediriger la sortie d'une commande vers l'entrée d'une autre commande. Cela permet de chaîner plusieurs commandes ensemble pour effectuer des opérations plus complexes.
+
+##### Utilisation
+
+Voici un exemple simple pour illustrer son utilisation :
+
+```shell
+
+> ls | grep fichier
+> ls | grep fichier | wc -l
+```
+
+Dans cet exemple, la commande `ls` affiche la liste des fichiers et répertoires dans le répertoire courant. Le `|` redirige cette sortie vers la commande `grep`, qui filtre les lignes contenant le mot "fichier". Enfin, le `|` redirige la sortie de `grep` vers la commande `wc -l`, qui compte le nombre de lignes.
+
+Cette utilisation de `|` permet de combiner des commandes pour effectuer des tâches plus complexes et puissantes.
+
+#### which
+
+##### Description
+
+La commande `which` est utilisée pour localiser l'exécutable associé à une commande donnée. Cela peut être utile pour identifier le chemin complet d'une commande spécifique.
+
+##### Utilisation
+
+Voici un exemple simple pour illustrer son utilisation :
+
+```shell
+> which ls
+> which python
+```
+
+Dans cet exemple, la commande `which` affiche le chemin complet de l'exécutable associé à la commande `ls` et `python`.
+
+Cela peut être utile pour vérifier le chemin d'une commande avant de l'exécuter ou pour identifier la version spécifique d'un exécutable qui sera utilisée.
+
+#### grep
+
+##### Description
+
+La commande `grep` est utilisée pour rechercher des motifs dans un fichier ou une sortie de commande. Cela permet de filtrer les lignes qui correspondent à un motif spécifique.
+
+##### Utilisation
+
+Voici un exemple simple pour illustrer son utilisation :
+
+```shell
+> ls | grep fichier
+> cat mon_fichier.txt | grep mot
+```
+
+Dans cet exemple, la commande `ls` affiche la liste des fichiers et répertoires dans le répertoire courant. Le `|` redirige cette sortie vers la commande `grep`, qui filtre les lignes contenant le mot "fichier".
+
+De même, la commande `cat` affiche le contenu du fichier `mon_fichier.txt`, et le `|` redirige cette sortie vers la commande `grep`, qui filtre les lignes contenant le mot "mot".
+
+Cela permet de rechercher des motifs spécifiques dans les fichiers ou les sorties de commande, ce qui peut être utile pour extraire des informations pertinentes ou filtrer les résultats.
+
+#### column
+
+##### Description
+
+La commande `column` est utilisée pour formater les données en colonnes. Cela peut être utile pour afficher les résultats de manière plus lisible et organisée.
+
+##### Utilisation
+
+Voici un exemple simple pour illustrer son utilisation :
+
+```shell
+> ls -l | column -t
+```
+
+Dans cet exemple, la commande `ls -l` affiche les détails des fichiers et répertoires dans le répertoire courant. Le `|` redirige cette sortie vers la commande `column -t`, qui formate les données en colonnes.
+
+Cela permet d'organiser les résultats de manière plus lisible et structurée, ce qui peut être utile pour visualiser les données plus efficacement.
+
+#### sort
+
+##### Description
+
+La commande `sort` est utilisée pour trier les lignes d'un fichier ou d'une sortie de commande. Cela permet de classer les données dans un ordre spécifique.
+
+##### Utilisation
+
+Voici un exemple simple pour illustrer son utilisation :
+
+```shell
+> ls | sort
+> cat mon_fichier.txt | sort
+```
+
+Dans cet exemple, la commande `ls` affiche la liste des fichiers et répertoires dans le répertoire courant. Le `|` redirige cette sortie vers la commande `sort`, qui trie les lignes par ordre alphabétique.
+
+De même, la commande `cat` affiche le contenu du fichier `mon_fichier.txt`, et le `|` redirige cette sortie vers la commande `sort`, qui trie les lignes par ordre alphabétique.
+
+Cela permet de classer les données dans un ordre spécifique, ce qui peut être utile pour organiser les résultats de manière plus structurée.
+
+#### tail & head
+
+##### Description
+
+Les commandes `tail` et `head` sont utilisées pour afficher les premières ou les dernières lignes d'un fichier ou d'une sortie de commande. Cela permet de visualiser rapidement les parties importantes des données.
+
+##### Utilisation
+
+Voici un exemple simple pour illustrer leur utilisation :
+
+```shell
+> ls | tail
+> cat mon_fichier.txt | head
+```
+
+Dans cet exemple, la commande `ls` affiche la liste des fichiers et répertoires dans le répertoire courant. Le `|` redirige cette sortie vers la commande `tail`, qui affiche les dernières lignes.
+
+De même, la commande `cat` affiche le contenu du fichier `mon_fichier.txt`, et le `|` redirige cette sortie vers la commande `head`, qui affiche les premières lignes.
+
+Cela permet de visualiser rapidement les parties importantes des données, ce qui peut être utile pour analyser les résultats de manière plus efficace.
+
+#### var
+
+##### Description
+
+Les variables sont des éléments essentiels en programmation shell. Elles permettent de stocker des valeurs et de les réutiliser dans des scripts ou des commandes.
+
+##### Utilisation
+
+Voici un exemple simple pour illustrer leur utilisation :
+
+```shell
+> nom="Jean"
+> echo "Bonjour, $nom !"
+```
+
+Dans cet exemple, la variable `nom` est définie avec la valeur "Jean". La commande `echo` affiche le message "Bonjour, Jean !", en utilisant la variable `nom`.
+
+Les variables peuvent être utilisées pour stocker des données temporaires, des résultats de commandes, des paramètres de scripts, etc. Elles offrent une grande flexibilité et sont largement utilisées en programmation shell.
+
+#### while
+
+##### Description
+
+La boucle `while` est utilisée pour exécuter un bloc de code tant qu'une condition est vraie. Cela permet de répéter des instructions jusqu'à ce que la condition devienne fausse.
+
+##### Utilisation
+
+Voici un exemple simple pour illustrer son utilisation :
+
+```shell
+> i=0
+> while [ $i -lt 5 ]; do
+>    echo $i
+>    i=$((i+1))
+> done
+```
+
+Dans cet exemple, la variable `i` est initialisée à 0. La boucle `while` exécute le bloc de code tant que `i` est inférieur à 5. À chaque itération, la valeur de `i` est affichée avec `echo` et incrémentée de 1.
+
+Cela permet de répéter des instructions un certain nombre de fois ou jusqu'à ce qu'une condition spécifique soit remplie.
+
+#### for
+
+##### Description
+
+La boucle `for` est utilisée pour exécuter un bloc de code pour chaque élément d'une liste ou d'une séquence. Cela permet de traiter des données de manière itérative.
+
+##### Utilisation
+
+Voici un exemple simple pour illustrer son utilisation :
+
+```shell
+> for i in 1 2 3 4 5; do
+>   echo $i
+>   done
+```
+
+Dans cet exemple, la boucle `for` itère sur les éléments de la liste `1 2 3 4 5`. À chaque itération, la valeur de `i` est affichée avec `echo`.
+
+Cela permet de traiter des données de manière itérative et de répéter des instructions pour chaque élément d'une liste ou d'une séquence.
+
+#### if
+
+##### Description
+
+La structure `if` est utilisée pour exécuter un bloc de code si une condition est vraie. Cela permet de prendre des décisions en fonction de l'évaluation d'une expression.
+
+##### Utilisation
+
+Voici un exemple simple pour illustrer son utilisation :
+
+```shell
+> x=10
+> if [ $x -eq 10 ]; then
+>  echo "x est égal à 10"
+>  fi
+```
+
+Dans cet exemple, la variable `x` est définie à 10. La structure `if` évalue si `x` est égal à 10 en utilisant l'opérateur `-eq`. Si la condition est vraie, le message "x est égal à 10" est affiché.
+
+Cela permet de prendre des décisions en fonction de l'évaluation d'une expression et d'exécuter un bloc de code conditionnellement.
+
+
+
+
 _______
 ¹ oneliner : *plusieurs actions/commandes en une seule ligne de code.*
